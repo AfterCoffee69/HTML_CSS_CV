@@ -1,0 +1,192 @@
+* {
+	box-sizing: border-box;
+	margin: 0;
+	padding: 0;
+	font-family: 'Montserrat', sans-serif;
+}
+
+body {
+	background: #00a15e;
+}
+
+a {
+    color: #000000;
+}
+
+.container {
+	background: #f5f5f5;
+	max-width: 850px;
+	margin: 60px auto;
+	height: 100%;
+	box-shadow: 0 2px 50px rgba(0, 0, 0, 0.3);
+}
+
+header {
+    padding: 30px;
+	text-align: center;
+    background-color: #585858;
+}
+
+header h1:after {
+    content: "";
+    display: block;
+    width: 75%;
+    height: 5px;
+    background-color: #000000;
+    margin: 20px auto;
+} 
+
+header h1 {
+	margin-bottom: 10px;
+    color: #fff;
+}
+
+header h3 {
+	text-transform: uppercase;
+	font-size: 15px;
+	font-weight: 500;
+    color: #fff;
+}
+
+
+.img__area {
+	width: 220px;
+	height: 220px;
+	border-radius: 50%;
+	overflow: hidden;
+	margin: 25px auto;
+	border: 15px solid rgb(24, 75, 0);
+}
+
+.img__area img {
+	width: 100%;
+}
+
+.info {
+	flex: 1;
+	padding: 30px;
+}
+
+.info__field:after {
+    content: "";
+    display: block;
+    width: 100%;
+    height: 5px;
+    background-color: #000000;
+    margin: 30px auto;
+} 
+
+.info__field p {
+	line-height: 2;
+}
+
+.info__field ul {
+    padding-left: 40px;
+}
+
+.info__field ul li {
+	line-height: 2;
+    font-size: 20px;
+}
+
+.info h2 {
+    margin-top: 10px;
+	background: #009b46;
+	padding: 30px;
+	color: #fff;
+    text-align: center;
+    margin-bottom: 30px;
+	font-size: 35px;
+    border-radius: 50px 0 50px 0;
+}
+
+.info__field h3 {
+	background: #006d31;
+	padding: 15px;
+	color: #fff;
+	margin: 30px 0;
+	font-size: 20px;
+	border-radius: 0 50px 50px 0;
+}
+
+.self {
+    text-align: center;
+    width: 100%;
+    font-weight: 500;
+}
+
+.experience {
+    flex: 1;
+}
+
+.experience h2 {
+    margin-top: 10px;
+    background: #00a3d4f3;
+	padding: 30px;
+	color: #fff;
+    text-align: center;
+    margin-bottom: 30px;
+	font-size: 35px;
+    border-radius: 50px 0 50px 0;
+}
+
+.experience h3 {
+	background: #00a3d4f3;
+	padding: 15px;
+	color: #fff;
+	margin: 30px 0;
+	font-size: 20px;
+	border-radius: 0 50px 50px 0;
+}
+
+.experience h4{
+    padding-left: 20px;
+    font-size: 25px;
+}
+
+.experience p {
+	line-height: 2.9;
+}
+
+.experience ul {
+    padding-left: 20px;
+}
+
+.experience ul li {
+    font-size: 20px;
+    padding-left: 20px;
+	line-height: 2;
+}
+
+.experience pre {
+    margin-top: 20px;
+    margin-bottom: 20px;
+    padding: 20px;
+    background-color: #252525;
+    color: #fff;
+    line-height: 1.5;
+}
+
+.experience:after {
+    content: "";
+    display: block;
+    width: 100%;
+    height: 5px;
+    background-color: #000000;
+    margin: 30px auto;
+} 
+
+footer h2 {
+    background: #004e23;
+	padding: 15px;
+	color: #fff;
+	font-size: 20px;
+    font-weight: 100;
+    text-align: center;
+    letter-spacing: 2.5px;
+}
+
+footer a {
+    font-weight: 400;
+    color: #fff;
+}
